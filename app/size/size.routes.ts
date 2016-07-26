@@ -5,7 +5,7 @@ import { SmallComponent } from "./small.component";
 import { MediumComponent } from "./medium.component";
 import { LargeComponent } from "./large.component";
 
-export const BlueRoutes: RouterConfig = [
+export const SizeRoutes: RouterConfig = [
     {
         path: 'size',
         component: SizeComponent,

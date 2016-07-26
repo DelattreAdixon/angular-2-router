@@ -3,19 +3,20 @@ import { ROUTER_DIRECTIVES } from "@angular/router";
 
 @Component({
     template:  `
-        <div class="cards padded">
+        <div class="light-green padded">
             <p>
-                <a [routerLink]="['/card/diamond']">Diamond</a> | 
-                <a [routerLink]="['/card/heart']">Heart</a> |
-                <a [routerLink]="['/card/club']">Club</a> |
-                <a [routerLink]="['/card/spade']">Spade</a>
+                <a [routerLink]="['/card/diamond']">Diamonds</a> | 
+                <a [routerLink]="['/card/heart']">Hearts</a> |
+                <a [routerLink]="['/card/club']">Clubs</a> |
+                <a [routerLink]="['/card/spade']">Spades</a>
             </p>
-            <div class="border padded">
+            <div class="border not-padded">
                 <router-outlet></router-outlet>
             </div>
         </div>`,
     styles: [`
-        .cards {background-color: #bdf5bd;}
+        .light-green {background-color: #bdf5bd;}
+        .darker-green {background-color: #90ee90;}
         .suit span {font-size: 40px;}
         .red {color: red;}`
     ],

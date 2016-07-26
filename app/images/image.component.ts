@@ -1,26 +1,22 @@
 import { Component, ViewEncapsulation } from '@angular/core';
-
 import { ROUTER_DIRECTIVES } from "@angular/router";
 
 @Component({
-    selector: 'router-app',
     template:  `
-        <div>
+        <div class="light-red padded">
             <p>
-                <a [routerLink]="['/size']">Size</a> |
-                <a [routerLink]="['/card']">Cards</a> |
-                <a [routerLink]="['/image']">Image</a>
+                <a [routerLink]="['/image/leela']">Leela</a> | 
+                <a [routerLink]="['/image/fry']">Fry</a>
             </p>
             <div class="border not-padded">
                 <router-outlet></router-outlet>
-            </div>    
+            </div>
         </div>`,
     styles: [`
-        div {padding: 10px;}
-        .not-padded {padding: 0;}
-        .border {border: 1px solid #b3b3b3;}`],
+        .light-red {background-color: #ffe6e6;}
+        .darker-red {background-color: #ffcccc;}`
+    ],
     encapsulation: ViewEncapsulation.None,
     directives: [ROUTER_DIRECTIVES]
 })
-export class AppComponent {
-}
+export class ImageComponent {}

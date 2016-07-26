@@ -2,7 +2,7 @@ import {Component} from '@angular/core';
 
 @Component({
     template: `
-        <div>
+        <div class="darker-green">
             <h1>Diamonds</h1>
             <p class="suit">
                 <span [innerHTML]="'&diams;'"></span>
