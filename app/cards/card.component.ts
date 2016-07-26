@@ -3,7 +3,7 @@ import { ROUTER_DIRECTIVES } from "@angular/router";
 
 @Component({
     template:  `
-        <div class="padded">
+        <div class="cards padded">
             <p>
                 <a [routerLink]="['/card/diamond']">Diamond</a> | 
                 <a [routerLink]="['/card/heart']">Heart</a> |
@@ -15,7 +15,7 @@ import { ROUTER_DIRECTIVES } from "@angular/router";
             </div>
         </div>`,
     styles: [`
-        div {background-color: #bdf5bd;},
+        .cards {background-color: #bdf5bd;},
         .suit span {font-size: 40px;},
         .red {color: red;}`
     ],
