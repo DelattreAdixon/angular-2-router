@@ -7,8 +7,8 @@ import { ROUTER_DIRECTIVES } from "@angular/router";
     template:  `
         <div>
             <p>
-                <a [routerLink]="['/card']">Cards</a> |
-                <a [routerLink]="['/blue']">Blue</a>
+                <a [routerLink]="['/size']">Size</a> |
+                <a [routerLink]="['/card']">Cards</a>
             </p>
             <div class="border not-padded">
                 <router-outlet></router-outlet>

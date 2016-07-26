@@ -1,7 +1,7 @@
 import { provideRouter, RouterConfig } from '@angular/router';
 
 import { CardRoutes } from "./cards/card.routes";
-import { BlueRoutes } from "./size/blue.routes";
+import { BlueRoutes } from "./size/size.routes";
 
 export const routes: RouterConfig = [
     {path: '', redirectTo: '/cards', pathMatch: 'full'},

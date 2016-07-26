@@ -15,8 +15,8 @@ import { ROUTER_DIRECTIVES } from "@angular/router";
             </div>
         </div>`,
     styles: [`
-        .cards {background-color: #bdf5bd;},
-        .suit span {font-size: 40px;},
+        .cards {background-color: #bdf5bd;}
+        .suit span {font-size: 40px;}
         .red {color: red;}`
     ],
     encapsulation: ViewEncapsulation.None,
