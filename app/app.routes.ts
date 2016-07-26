@@ -1,11 +1,11 @@
 import { provideRouter, RouterConfig } from '@angular/router';
 
-import { GreenRoutes } from "./green/green.routes";
-import { BlueRoutes } from "./blue/blue.routes";
+import { CardRoutes } from "./cards/card.routes";
+import { BlueRoutes } from "./size/blue.routes";
 
 export const routes: RouterConfig = [
-    {path: '', redirectTo: '/green', pathMatch: 'full'},
-    ...GreenRoutes,
+    {path: '', redirectTo: '/cards', pathMatch: 'full'},
+    ...CardRoutes,
     ...BlueRoutes
 ];
 
