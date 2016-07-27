@@ -9,7 +9,7 @@ export const ImageRoutes: RouterConfig = [
         path: 'image',
         component: ImageComponent,
         children: [
-            {path: '', component: LeelaComponent},
+            {path: '', redirectTo: 'leela'},
             {path: 'leela', component: LeelaComponent},
             {path: 'fry', component: FryComponent}
         ]

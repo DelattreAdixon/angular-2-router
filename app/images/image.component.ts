@@ -5,8 +5,8 @@ import { ROUTER_DIRECTIVES } from "@angular/router";
     template:  `
         <div class="light-red padded">
             <p>
-                <a [routerLink]="['/image/leela']">Leela</a> | 
-                <a [routerLink]="['/image/fry']">Fry</a>
+                <a [routerLink]="['/image/leela']" routerLinkActive="disabled">Leela</a> | 
+                <a [routerLink]="['/image/fry']" routerLinkActive="disabled">Fry</a>
             </p>
             <div class="border not-padded">
                 <router-outlet></router-outlet>

@@ -5,9 +5,9 @@ import { ROUTER_DIRECTIVES } from "@angular/router";
     template:  `
         <div class="padded light-blue">
             <p>
-                <a [routerLink]="['/size/small']">Small</a> | 
-                <a [routerLink]="['/size/medium']">Medium</a> |
-                <a [routerLink]="['/size/large']">Large</a>
+                <a [routerLink]="['/size/small']" routerLinkActive="disabled">Small</a> | 
+                <a [routerLink]="['/size/medium']" routerLinkActive="disabled">Medium</a> |
+                <a [routerLink]="['/size/large']" routerLinkActive="disabled">Large</a>
             </p>
             <div class="border not-padded">
                 <router-outlet></router-outlet>

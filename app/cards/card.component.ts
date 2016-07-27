@@ -5,10 +5,10 @@ import { ROUTER_DIRECTIVES } from "@angular/router";
     template:  `
         <div class="light-green padded">
             <p>
-                <a [routerLink]="['/card/diamond']">Diamonds</a> | 
-                <a [routerLink]="['/card/heart']">Hearts</a> |
-                <a [routerLink]="['/card/club']">Clubs</a> |
-                <a [routerLink]="['/card/spade']">Spades</a>
+                <a [routerLink]="['/card/diamond']" routerLinkActive="disabled">Diamonds</a> | 
+                <a [routerLink]="['/card/heart']" routerLinkActive="disabled">Hearts</a> |
+                <a [routerLink]="['/card/club']" routerLinkActive="disabled">Clubs</a> |
+                <a [routerLink]="['/card/spade']" routerLinkActive="disabled">Spades</a>
             </p>
             <div class="border not-padded">
                 <router-outlet></router-outlet>

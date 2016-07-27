@@ -11,7 +11,7 @@ export const CardRoutes: RouterConfig = [
         path: 'card',
         component: CardComponent,
         children: [
-            {path: '', component: DiamondComponent},
+            {path: '', redirectTo: 'diamond'},
             {path: 'diamond', component: DiamondComponent},
             {path: 'heart', component: HeartComponent},
             {path: 'club', component: ClubComponent},

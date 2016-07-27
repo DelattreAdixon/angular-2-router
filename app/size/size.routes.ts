@@ -10,7 +10,7 @@ export const SizeRoutes: RouterConfig = [
         path: 'size',
         component: SizeComponent,
         children: [
-            {path: '', component: SmallComponent},
+            {path: '', redirectTo: 'medium'},
             {path: 'small', component: SmallComponent},
             {path: 'medium', component: MediumComponent},
             {path: 'large', component: LargeComponent}
