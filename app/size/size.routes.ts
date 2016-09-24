@@ -1,11 +1,11 @@
-import { RouterConfig } from '@angular/router';
+import { Routes } from '@angular/router';
 
 import { SizeComponent } from "./size.component";
 import { SmallComponent } from "./small.component";
 import { MediumComponent } from "./medium.component";
 import { LargeComponent } from "./large.component";
 
-export const SizeRoutes: RouterConfig = [
+export const SizeRoutes: Routes = [
     {
         path: 'size',
         component: SizeComponent,

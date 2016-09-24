@@ -1,4 +1,4 @@
-import { RouterConfig } from '@angular/router';
+import { Routes } from '@angular/router';
 
 import { CardComponent } from "./card.component";
 import { DiamondComponent } from "./diamond.component";
@@ -6,7 +6,7 @@ import { HeartComponent } from "./heart.component";
 import { ClubComponent } from "./club.component";
 import { SpadeComponent } from "./spade.component";
 
-export const CardRoutes: RouterConfig = [
+export const CardRoutes: Routes = [
     {
         path: 'card',
         component: CardComponent,

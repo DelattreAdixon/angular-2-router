@@ -1,5 +1,4 @@
 import { Component, ViewEncapsulation } from '@angular/core';
-import { ROUTER_DIRECTIVES } from "@angular/router";
 
 @Component({
     template:  `
@@ -20,8 +19,7 @@ import { ROUTER_DIRECTIVES } from "@angular/router";
         .suit span {font-size: 40px;}
         .red {color: red;}`
     ],
-    encapsulation: ViewEncapsulation.None,
-    directives: [ROUTER_DIRECTIVES]
+    encapsulation: ViewEncapsulation.None
 })
 export class CardComponent {
 }

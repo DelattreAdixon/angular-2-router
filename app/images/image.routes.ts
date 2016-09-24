@@ -1,10 +1,10 @@
-import { RouterConfig } from '@angular/router';
+import { Routes } from "@angular/router";
 
 import { ImageComponent } from "./image.component";
 import { LeelaComponent } from "./leela.component";
 import { FryComponent } from "./fry.component";
 
-export const ImageRoutes: RouterConfig = [
+export const ImageRoutes: Routes = [
     {
         path: 'image',
         component: ImageComponent,

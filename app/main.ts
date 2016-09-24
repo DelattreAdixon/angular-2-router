@@ -1,10 +1,11 @@
-import { bootstrap } from '@angular/platform-browser-dynamic'
-import { HashLocationStrategy, LocationStrategy} from "@angular/common";
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
-import { AppComponent } from './app.component'
-import { appRouterProviders } from './app.routes';
+import { AppModule } from './app.module';
 
-bootstrap(AppComponent, [
-    appRouterProviders,
-    { provide: LocationStrategy, useClass: HashLocationStrategy }
-]);
+const platform = platformBrowserDynamic();
+platform.bootstrapModule(AppModule);
+
+// bootstrap(AppComponent, [
+//     appRouterProviders,
+//     { provide: LocationStrategy, useClass: HashLocationStrategy }
+// ]);

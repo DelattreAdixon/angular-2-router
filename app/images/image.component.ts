@@ -1,5 +1,4 @@
 import { Component, ViewEncapsulation } from '@angular/core';
-import { ROUTER_DIRECTIVES } from "@angular/router";
 
 @Component({
     template:  `
@@ -16,7 +15,6 @@ import { ROUTER_DIRECTIVES } from "@angular/router";
         .light-red {background-color: #ffe6e6;}
         .darker-red {background-color: #ffcccc;}`
     ],
-    encapsulation: ViewEncapsulation.None,
-    directives: [ROUTER_DIRECTIVES]
+    encapsulation: ViewEncapsulation.None
 })
 export class ImageComponent {}
