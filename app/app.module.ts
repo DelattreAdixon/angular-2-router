@@ -4,9 +4,9 @@ import { HashLocationStrategy, LocationStrategy } from "@angular/common";
 
 import { AppComponent } from "./app.component";
 import { routing } from "./app.routes";
-import { RedComponentList } from "./red/red.component-list";
-import { GreenComponentList } from "./green/green.component-list";
-import { BlueComponentList } from "./blue/blue.component-list";
+import { RedComponent } from "./red.component";
+import { GreenComponent } from "./green.component";
+import { BlueComponent } from "./blue.component";
 
 @NgModule({
     imports:      [
@@ -15,9 +15,9 @@ import { BlueComponentList } from "./blue/blue.component-list";
     ],
     declarations: [
         AppComponent,
-        ...RedComponentList,
-        ...GreenComponentList,
-        ...BlueComponentList
+        BlueComponent,
+        GreenComponent,
+        RedComponent
     ],
     bootstrap: [
         AppComponent

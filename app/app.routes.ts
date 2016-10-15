@@ -1,15 +1,15 @@
 import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { RedRoutes } from "./red/red.routes";
-import { GreenRoutes } from "./green/green.routes";
-import { BlueRoutes } from "./blue/blue.routes";
+import { RedComponent } from "./red.component";
+import { GreenComponent } from "./green.component";
+import { BlueComponent } from "./blue.component";
 
 export const routes: Routes = [
-    {path: '', redirectTo: '/green/medium', pathMatch: 'full'},
-    ...RedRoutes,
-    ...GreenRoutes,
-    ...BlueRoutes
+    {path: '', redirectTo: '/green', pathMatch: 'full'},
+    {path: 'red', component: RedComponent},
+    {path: 'green', component: GreenComponent},
+    {path: 'blue', component: BlueComponent},
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(routes);
