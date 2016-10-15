@@ -5,6 +5,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
         <div class="very-pale-red padded">
             <h2>Red</h2>
             <p>
+                Child menu -
                 <a [routerLink]="['/red/light']" routerLinkActive="disabled">Light Red</a> |
                 <a [routerLink]="['/red/medium']" routerLinkActive="disabled">Medium Red</a> |
                 <a [routerLink]="['/red/dark']" routerLinkActive="disabled">Dark Red</a>

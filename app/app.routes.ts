@@ -6,7 +6,7 @@ import { GreenRoutes } from "./green/green.routes";
 import { BlueRoutes } from "./blue/blue.routes";
 
 export const routes: Routes = [
-    {path: '', redirectTo: '/green/light', pathMatch: 'full'},
+    {path: '', redirectTo: '/green/medium', pathMatch: 'full'},
     ...RedRoutes,
     ...GreenRoutes,
     ...BlueRoutes
