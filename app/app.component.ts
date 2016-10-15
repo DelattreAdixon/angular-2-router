@@ -5,10 +5,9 @@ import { Component, ViewEncapsulation } from '@angular/core';
     template:  `
         <div>
             <p>
-                Menu -
-                <a routerLink="/red" routerLinkActive="disabled">Red</a> |
+                <a routerLink="/red"   routerLinkActive="disabled">Red</a> |
                 <a routerLink="/green" routerLinkActive="disabled">Green</a> |
-                <a routerLink="/blue" routerLinkActive="disabled">Blue</a>
+                <a routerLink="/blue"  routerLinkActive="disabled">Blue</a>
             </p>
             <div class="border not-padded">
                 <router-outlet></router-outlet>
