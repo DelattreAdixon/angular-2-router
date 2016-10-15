@@ -1,15 +1,15 @@
 import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { CardRoutes } from "./cards/card.routes";
-import { SizeRoutes } from "./size/size.routes";
-import { ImageRoutes } from "./images/image.routes";
+import { RedRoutes } from "./red/red.routes";
+import { GreenRoutes } from "./green/green.routes";
+import { BlueRoutes } from "./blue/blue.routes";
 
 export const routes: Routes = [
-    {path: '', redirectTo: '/size/medium', pathMatch: 'full'},
-    ...CardRoutes,
-    ...SizeRoutes,
-    ...ImageRoutes
+    {path: '', redirectTo: '/green/light', pathMatch: 'full'},
+    ...RedRoutes,
+    ...GreenRoutes,
+    ...BlueRoutes
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(routes);

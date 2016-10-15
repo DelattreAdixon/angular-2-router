@@ -4,9 +4,9 @@ import { HashLocationStrategy, LocationStrategy } from "@angular/common";
 
 import { AppComponent } from "./app.component";
 import { routing } from "./app.routes";
-import { CardComponentList } from "./cards/card.component-list";
-import { ImageComponentList } from "./images/image.component-list";
-import { SizeComponentList } from "./size/size.component-list";
+import { RedComponentList } from "./red/red.component-list";
+import { GreenComponentList } from "./green/green.component-list";
+import { BlueComponentList } from "./blue/blue.component-list";
 
 @NgModule({
     imports:      [
@@ -15,9 +15,9 @@ import { SizeComponentList } from "./size/size.component-list";
     ],
     declarations: [
         AppComponent,
-        ...CardComponentList,
-        ...ImageComponentList,
-        ...SizeComponentList
+        ...RedComponentList,
+        ...GreenComponentList,
+        ...BlueComponentList
     ],
     bootstrap: [
         AppComponent
