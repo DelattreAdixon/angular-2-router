@@ -3,7 +3,7 @@ import {Component} from '@angular/core';
 @Component({
     template: `
         <div class="dark-blue">
-            <h1>Dark</h1>
+            <h3>Dark</h3>
         </div>`,
     styles: ['.dark-blue {background-color: DarkBlue}']
 })

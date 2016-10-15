@@ -3,6 +3,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
 @Component({
     template:  `
         <div class="very-pale-red padded">
+            <h2>Red</h2>
             <p>
                 <a [routerLink]="['/red/light']" routerLinkActive="disabled">Light Red</a> |
                 <a [routerLink]="['/red/medium']" routerLinkActive="disabled">Medium Red</a> |
