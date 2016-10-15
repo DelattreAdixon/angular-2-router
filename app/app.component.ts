@@ -5,7 +5,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
     template:  `
         <div>
             <p>
-                Parent menu -
+                Menu -
                 <a [routerLink]="['/red']" routerLinkActive="disabled">Red</a> |
                 <a [routerLink]="['/green']" routerLinkActive="disabled">Green</a> |
                 <a [routerLink]="['/blue']" routerLinkActive="disabled">Blue</a>
