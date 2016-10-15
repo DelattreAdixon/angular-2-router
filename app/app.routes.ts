@@ -5,7 +5,7 @@ import { RedComponent } from "./red.component";
 import { GreenComponent } from "./green.component";
 import { BlueComponent } from "./blue.component";
 
-export const routes: Routes = [
+const routes: Routes = [
     {path: '', redirectTo: '/green', pathMatch: 'full'},
     {path: 'red', component: RedComponent},
     {path: 'green', component: GreenComponent},
