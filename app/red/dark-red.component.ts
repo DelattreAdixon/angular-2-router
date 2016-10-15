@@ -5,6 +5,6 @@ import {Component} from '@angular/core';
         <div class="dark-red">
             <h3>Dark</h3>
         </div>`,
-    styles: ['.dark-red {background-color: DarkRed}']
+    styles: ['.dark-red {background-color: #ff4d4d;}']
 })
 export class DarkRedComponent {}
