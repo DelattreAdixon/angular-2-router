@@ -6,9 +6,9 @@ import { Component } from '@angular/core';
             <h2>Red</h2>
             <p>
                 Child menu -
-                <a routerLink="/red/light"  routerLinkActive="disabled">Light Red</a> |
-                <a routerLink="/red/medium" routerLinkActive="disabled">Medium Red</a> |
-                <a routerLink="/red/dark"   routerLinkActive="disabled">Dark Red</a>
+                <a routerLink="light"  routerLinkActive="disabled">Light Red</a> |
+                <a routerLink="medium" routerLinkActive="disabled">Medium Red</a> |
+                <a routerLink="dark"   routerLinkActive="disabled">Dark Red</a>
             </p>
             <div class="border not-padded">
                 <router-outlet></router-outlet>

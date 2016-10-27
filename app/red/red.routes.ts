@@ -15,5 +15,5 @@ export const RedRoutes: Routes = [
             {path: 'medium', component: MediumRedComponent},
             {path: 'dark', component: DarkRedComponent}
         ]
-    },
+    }
 ];
