@@ -10,7 +10,7 @@ export const GreenRoutes: Routes = [
         path: 'green',
         component: GreenComponent,
         children: [
-            {path: '', redirectTo: 'medium'},
+            {path: '', redirectTo: 'medium', pathMatch: 'full'},
             {path: 'light', component: LightGreenComponent},
             {path: 'medium', component: MediumGreenComponent},
             {path: 'dark', component: DarkGreenComponent}

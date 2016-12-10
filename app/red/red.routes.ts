@@ -10,7 +10,7 @@ export const RedRoutes: Routes = [
         path: 'red',
         component: RedComponent,
         children: [
-            {path: '', redirectTo: 'medium'},
+            {path: '', redirectTo: 'medium', pathMatch: 'full'},
             {path: 'light', component: LightRedComponent},
             {path: 'medium', component: MediumRedComponent},
             {path: 'dark', component: DarkRedComponent}

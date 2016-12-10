@@ -10,7 +10,7 @@ export const BlueRoutes: Routes = [
         path: 'blue',
         component: BlueComponent,
         children: [
-            {path: '', redirectTo: 'medium'},
+            {path: '', redirectTo: 'medium', pathMatch: 'full'},
             {path: 'light', component: LightBlueComponent},
             {path: 'medium', component: MediumBlueComponent},
             {path: 'dark', component: DarkBlueComponent}
